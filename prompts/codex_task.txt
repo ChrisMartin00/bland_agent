@@ -1,0 +1,8 @@
+Read AGENTS.md and everything under responses/. Diagnose the latest Bland failure. Then update the request files under requests/bland and requests/tests for the next safe iteration.
+
+Rules:
+- Explain the root cause first.
+- Never ask for raw IDs if those should already come from prior responses.
+- Keep changes minimal.
+- Update notes/issues.md with a short summary of the failure and the fix.
+- Preserve valid existing IDs and endpoint URLs.
